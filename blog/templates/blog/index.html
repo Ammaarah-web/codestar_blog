@@ -1,8 +1,10 @@
-﻿{% extends "base.html" %}
+{% extends "base.html" %}
 
 {% block content %}
+
 <div class="container-fluid">
     <div class="row">
+
         <!-- Blog Entries Column -->
         <div class="col-12 mt-3 left">
             <div class="row">
@@ -11,11 +13,6 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <div class="image-container">
-                                {% if "placeholder" in post.featured_image.url %}
-                                <img class="card-img-top" src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" alt="placeholder image">
-                                {% else %}
-                                <img class="card-img-top" src="{{ post.featured_image.url }}" alt="{{ post.title }}">
-                                {% endif %}
                                 <div class="image-flash">
                                     <p class="author">Author: {{ post.author }}</p>
                                 </div>
@@ -33,6 +30,7 @@
             <div class="row">
                 {% endif %}
                 {% endfor %}
+
             </div>
         </div>
     </div>
@@ -49,6 +47,7 @@
     </nav>
     {% endif %}
 </div>
+
 {% endblock %}
 
 {% block copyright %}
