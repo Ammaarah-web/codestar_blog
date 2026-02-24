@@ -1,0 +1,102 @@
+[
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "title": "Half Blood Prince",
+      "slug": "half-blood-prince",
+      "author": 2,
+      "content": "ipsum locum",
+      "excerpt": "",
+      "created_on": "2026-02-22T15:57:51.958Z",
+      "updated_on": "2026-02-22T15:57:59.360Z",
+      "status": 0
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "title": "Order of the Phoenix",
+      "slug": "order-of-the-phoenix",
+      "author": 4,
+      "content": "hey dude",
+      "excerpt": "",
+      "created_on": "2026-02-22T15:58:28.014Z",
+      "updated_on": "2026-02-22T15:58:28.014Z",
+      "status": 0
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+      "post": 2,
+      "author": 4,
+      "challenge": 3.0,
+      "body": "slayyyyy",
+      "approved": true,
+      "created_on": "2026-02-22T16:06:21.869Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+      "post": 1,
+      "author": 1,
+      "challenge": 3.0,
+      "body": "Great post, thanks for sharing!",
+      "approved": true,
+      "created_on": "2026-02-23T15:31:07.704Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+      "post": 1,
+      "author": 1,
+      "challenge": 3.0,
+      "body": "Really useful read.",
+      "approved": true,
+      "created_on": "2026-02-23T15:31:07.720Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 4,
+    "fields": {
+      "post": 1,
+      "author": 1,
+      "challenge": 3.0,
+      "body": "Looking forward to more content.",
+      "approved": true,
+      "created_on": "2026-02-23T15:31:07.735Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 5,
+    "fields": {
+      "post": 2,
+      "author": 1,
+      "challenge": 3.0,
+      "body": "Great post, thanks for sharing!",
+      "approved": true,
+      "created_on": "2026-02-23T15:31:07.759Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 6,
+    "fields": {
+      "post": 2,
+      "author": 1,
+      "challenge": 3.0,
+      "body": "Really useful read.",
+      "approved": true,
+      "created_on": "2026-02-23T15:31:07.772Z"
+    }
+  }
+]
